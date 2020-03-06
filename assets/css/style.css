@@ -1,0 +1,62 @@
+header {
+
+    background-color:#2F73D8;	
+}
+
+
+.title {
+
+    text-align: center;
+    color:white;
+    font-family:"Lato", sans-serif;
+    font-weight:800;
+    text-transform: uppercase;
+    margin-top:35px;
+    
+}
+
+.nav {
+
+    margin-top:35px;
+}
+
+.nav a {
+
+    color:white;
+}
+
+.front-text {
+
+     margin:250px 0 0 0;
+    
+}
+
+.front-text h1 {
+
+    margin-left:250px;
+    
+}
+
+.front-text p {
+
+    margin-left:250px;
+}
+
+.front-image img {
+
+    margin:250px 0 0 350px;
+    
+}
+
+
+.free-trial-button {
+
+    margin-top:15px;
+    margin-bottom: 20px;
+    margin-left:350px;
+    color: #2F73D8;
+    background-color:white;
+    
+
+}
+
