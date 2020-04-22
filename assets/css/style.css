@@ -10,7 +10,7 @@
 
 header {
 
- background-color:#f4976c;
+ background-color:#4d94ff;
  
 }
 
@@ -25,8 +25,7 @@ header {
  text-transform: uppercase;
  margin-top:20px;
  text-decoration: none;
- font-size: 35px;
- 
+ font-size: 36px;
  
 }
 
@@ -43,10 +42,10 @@ header {
 .toggler-style {
 
  
- color:#2F73D8;
- border-color:#2F73D8;
- background-color:blue;
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpathstroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    margin-top:20px;
+    margin-left:30px;
+ 
 }
 
 .nav a {
@@ -60,10 +59,9 @@ header {
  text-decoration: none;
  font-size: 18px;
  color:white;
- 
- 
- 
 }
+
+
 
 
 
@@ -78,12 +76,12 @@ header {
  color:white;
 }
 
-
-
 .nav-item {
 
- padding:20px;
+ padding:15px;
 }
+
+
 
 #mid {
 
@@ -93,10 +91,7 @@ header {
  -o-transition: all 0.35s ;
 }
 
-.nav-margin {
 
-    margin-left:66px;
-}
 
 .nav-item-footer {
 
@@ -123,31 +118,41 @@ header {
  }
 
 
-.call-to-action-image {
+.call-to-action-image-index {
 
- 
- margin-bottom: 150px;
- background-image:none;
- 
- 
+    margin-bottom:100px;
+    position:relative;
+    bottom:125px;
+    
+    
 }
+
+
 
 .call-to-action-image-questions {
 
  
 position:relative;
 bottom:125px;
+margin-bottom:30px;
+
  
  
+}
+
+.image-question {
+
+    width:10%;
 }
 
 .call-to-action-image-howtomeditate {
 
  
+
+
 position:relative;
-bottom:125px;
-
-
+bottom:150px;
+margin-bottom:100px;
  
  
 }
@@ -169,18 +174,13 @@ bottom:125px;
 
 /** Containers **/
 
-.center-container {
 
- display: flex;
- justify-content: center;
- 
-}
 .entice-container {
 
  
  text-align: center;
  
- background-color:#fbddd0;
+ background-color:#e6f0ff;
  padding-top:45px;
  padding-bottom:45px;
  
@@ -241,10 +241,11 @@ display: flex;
  color:white;
  font-family: 'Lato' , sans-serif;
  font-weight:600;
- font-size:35px;
- 
+ font-size:32px;
  
 }
+
+
 
 .front-text p {
 
@@ -331,18 +332,18 @@ display: flex;
 .step1-background-colour {
 
     
-     background-color:#fBE8A6;
+     background-color:#f8da6d;
     
 }
 
 .step2-background-colour {
 
-    background-color:#b3dfe5;
+    background-color:#8ecfd7;
 }
 
 .step3-background-colour {
 
-    background-color:#b8c0e0;
+    background-color:#95a1d0;
 }
 
 
@@ -355,7 +356,7 @@ display: flex;
 
 
 font-size: 100px;
-color:#034f84;
+color:#ff6600;
 }
 
 .arrow-down-icon {
@@ -369,7 +370,7 @@ color:#034f84;
 .question-icon {
 
     float:right;
-  color:#0080ff;
+  color:#ff6600;
 }
 
 .android-iphone {
@@ -386,7 +387,7 @@ margin-left:10px;
 .peace-icon {
  text-align: center;
  font-size:100px;
- color:#303c6c;
+ color:#ff6600;
  margin-top:100px;
  margin-bottom:0;
 }
@@ -396,10 +397,10 @@ margin-left:10px;
 .free-trial-button {
 
  
- color:#f4976c; 
+ color:#4d94ff; 
  background-color:white;
  font-weight:600;
- border-color: #f4976c;
+ border-color:#4d94ff;
 
 }
 
@@ -411,7 +412,7 @@ margin-left:10px;
  font-weight:600;
  border-color:white;
  color:white;
- background-color: #f4976c;
+ background-color:#4d94ff;
  
 }
 
@@ -419,7 +420,7 @@ margin-left:10px;
 
  border-color:white;
  color:white;
- background-color: #f4976c;
+ background-color:#4d94ff;
 }
 
 .button-wrapper {
@@ -429,11 +430,11 @@ margin-left:10px;
 
 .free-trial-button-footer {
 
- color:#f4976c; 
+ color:#4d94ff;
  background-color:white;
  
  font-weight:600;
- border-color: #f4976c;
+ border-color:#4d94ff;;
  width:250px;
  margin:20px;
 
@@ -441,17 +442,17 @@ margin-left:10px;
 
 .free-trial-button-footer:hover {
 
- color:#f4976c; 
+ color:#4d94ff;
  background-color:white;
- border-color: #f4976c;
+ border-color:#4d94ff;
 
 }
 
 .free-trial-button-front-text:hover {
 
- color:#f4976c; 
+ color:#4d94ff;
  background-color:white;
- border-color: #f4976c;
+ border-color:#4d94ff;
 }
 
 .free-trial-button-nav {
@@ -462,14 +463,14 @@ margin-left:10px;
  margin-top:22px;
  margin-left:10px;
  font-weight:600;
- color:#f4976c; 
- border-color: #f4976c; 
+ color:#4d94ff;
+ border-color:#4d94ff;
 }
 
 .free-trial-button-nav:hover {
 
- color:#f4976c; 
- border-color: #f4976c; 
+ color:#4d94ff;
+ border-color:#4d94ff;
  background-color:white;
 }
 
@@ -486,7 +487,7 @@ margin-left:10px;
 
  .free-trial-button-nav:hover {
 
- color:#f4976c; 
+ color:#4d94ff;
  background-color:white;
 
 }
@@ -494,7 +495,7 @@ margin-left:10px;
 .commence-free-trial-button {
 
  color:white;
- background-color: #f4976c;
+ background-color:#4d94ff;
  border-color: white;
 
 }
@@ -502,7 +503,7 @@ margin-left:10px;
 .commence-free-trial-button:hover {
 
  color:white;
- background-color: #f4976c;
+ background-color:#4d94ff;
 border-color: white;
 }
 
@@ -682,25 +683,25 @@ font-size: 18px;
  /** Footer **/
 
  footer {
- background-color:#f4976c;
+ background-color:#4d94ff;
  color: white;
  min-height: 140px;
  margin: 0;
 }
 
-.footer-list-style {
+.footer-style {
 
  list-style-type: none;
  margin: 0;
  overflow: hidden;
- padding: 16px;
+ padding-top:15px;
  text-align:center;
 }
 
-.li-style {
+.li-style-footer {
 
  
- padding: 16px;
+ padding:5px;
  font-size: 18px;
  font-family: 'Lato' , sans-serif;
  font-weight:500;
@@ -716,37 +717,33 @@ font-size: 18px;
 .social-links li a i {
  width: 32px;
  height: 32px;
- padding: 12px 0;
+ padding-top: 14px;
  border-radius: 50%;
  font-size: 13px;
- line-height: 7px;
+ line-height: 6px;
  text-align: center;
- color: #fafafa;
- background: #303c6c;
- transition: all 0.35s ease-in-out;
- -moz-transition: all 0.35s ease-in-out;
- -webkit-transition: all 0.35s ease-in-out;
- -o-transition: all 0.35s ease-in-out;
+ color:white;
+ background:#ff6600;
+ transition: all 0.2s ease-in-out;
+ -moz-transition: all 0.2s ease-in-out;
+ -webkit-transition: all 0.2s ease-in-out;
+ -o-transition: all 0.2s ease-in-out;
 }
 
 .social-links li a i:hover {
- background:#f4976c;
+ background:#4d94ff;
 }
 
-#footer-details {
- padding: 5px;
+.footer-margin {
 
+    padding:5px;
 }
+
+
 
 /** Media Querys **/
 
-@media only screen and (max-width: 576px) {
- 
-.title-style {
 
- 
- position:absolute;
-}
 
 @media only screen and (max-width: 576px) {
 
@@ -754,6 +751,62 @@ font-size: 18px;
 
 width:80%;
 margin: auto;
+
+}
+
+}
+
+
+
+@media only screen and (max-width:1200px) {
+
+.call-to-action-image-index {
+
+margin-top:100px;
+
+}
+
+}
+
+@media only screen and (max-width:1200px) {
+
+.call-to-action-image-questions {
+
+margin-top:100px;
+
+}
+
+}
+
+@media only screen and (max-width:1200px) {
+
+.call-to-action-image-howtomeditate {
+
+margin-top:100px;
+
+}
+
+}
+
+@media only screen and (max-width:576px){
+
+.call-to-action-image-questions {
+
+    position:none;
+    bottom:auto;
+}
+
+
+}
+
+@media only screen and (max-width:576px) {
+
+.call-to-action-image-howtomeditate {
+
+    position:none;
+    bottom:auto;
+}
+
 
 }
 
@@ -776,6 +829,8 @@ margin-bottom:40px;
  
 }
 
+}
+
 @media only screen and (max-width: 576px) {
  
 .h2-qa {
@@ -785,6 +840,7 @@ margin-bottom:40px;
  font-size:28px;
 }
 
+}
 
 @media only screen and (max-width: 992px) {
  
@@ -795,6 +851,18 @@ margin-bottom:40px;
  margin-right:25px;
 }
 
+}
+
+@media only screen and (max-width: 992px) {
+ 
+
+ .footer-link-media-query {
+
+ padding-left:10px;
+ padding-right:10px;
+ margin-top:30px;
+
+} 
 }
 
 @media only screen and (max-width: 992px) {
@@ -812,6 +880,16 @@ margin-bottom:40px;
 @media only screen and (max-width: 576px) {
  
 
+.front-text h1 {
+
+ font-size: 26px;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+ 
+
 .center {
 
  width:75%;
@@ -822,20 +900,15 @@ margin-bottom:40px;
 @media only screen and (max-width: 576px) {
  
 
-.li-style {
+.li-style-footer {
 
  display:block;
+ margin-right:25x;
 }
 
 }
 
-@media only screen and (min-width:992px) {
- 
- .front-text {
 
- margin-top:175px;
- }
-}
 
 @media only screen and (min-width:992px) {
  
@@ -855,6 +928,18 @@ margin-bottom:40px;
 
 }
 
+@media only screen and (max-width: 576px) {
+ 
+
+.title {
+
+ font-size: 28px;
+ 
+}
+
+}
+
+
 
 @media only screen and (max-width: 992px) {
  
@@ -862,6 +947,9 @@ margin-bottom:40px;
 
 .footer-media-query {
 
+
+
+margin-top:40px;
 
 text-align: center;
 

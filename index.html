@@ -20,23 +20,29 @@
 </head>
 
 <body>
+
+	<!-- This is the header. The homepage link. is simply the name of the website, silence. I have a navbar collapse at large viewpoints, at extra large view, the free trial button and 
+    the anchor link arrow disappears. The anchor link will take you to the entice container down the page. I also included the container called front text in the header. The front text is the 
+    first piece of content the user will see on the website, containing a little bit of infomation and also an attractive monk image.
+
+    -->
 	<header>
-		<div class="container-fluid ">
+		<div class="container-fluid">
 			<div class="row ">
-				<div class="col-sm-4 offset-sm-4 ">
+				<div class="col-4 offset-4 ">
 					<div class="title">
 						<a href="index.html" class="title"><span>Silence</span></a>
 
 					</div>
 				</div>
-				<nav class="col-sm-4 navbar navbar-expand-lg title-style ">
+				<nav class="col-4 navbar navbar-expand-lg title-style ">
 					<button class="navbar-toggler ml-auto " data-toggle="collapse" data-target="#collapse_target">
- <span class="navbar-toggler-icon toggler-style"></span>
+ <span class="navbar-toggler-icon toggler-style "></span>
  </button>
 
 					<div class="collapse navbar-collapse " id="collapse_target">
 
-						<ul class="navbar-nav nav-margin">
+						<ul class="navbar-nav nav-margin ">
 
 
 							<li class="nav-item ">
@@ -50,17 +56,16 @@
 
 							</li>
 							<li class=" d-none d-xl-block">
-								<a class="btn btn-primary free-trial-button-nav hvr-float-shadow " href="#" data-toggle="modal" data-target="#modal"
-									role="button">Free Trial</a>
+								<a class="btn btn-primary free-trial-button-nav hvr-float-shadow " href="#"
+									data-toggle="modal" data-target="#modal" role="button">Free Trial</a>
 
 							</li>
 
-                            <li>
-                                <a href="#mid" class="hvr-icon-hang">
-                                <i class="fas fa-chevron-down hvr-icon arrow-down-icon"></i>
-                                </a>
-                            </li>
-
+							<li>
+								<a href="#mid3" class="hvr-icon-hang d-none d-xl-block">
+									<i class="fas fa-chevron-down hvr-icon arrow-down-icon"></i>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
@@ -69,7 +74,7 @@
 
 			<div class="container-fluid">
 				<div class="row margin-container">
-					<div class="col-12 col-md-3 offset-md-3 front-text ">
+					<div class="col-12 col-xl-3 offset-xl-3 front-text ">
 						<h1>Look within yourself</h1>
 						<p>Silence is a mediation app that has the purpose of training you to observe your mind and
 							silence your thoughts.</p>
@@ -84,8 +89,8 @@
 								Trial</a>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 call-to-action-image-index  ">
-						<img src="/assets/images/iphone5.jpg" alt="Meditation" class="center">
+					<div class="col-12 col-xl-6 call-to-action-image-index  ">
+						<img src="/assets/images/monk3.png" alt="Meditation" class="center">
 
  </div>
 					</div>
@@ -93,6 +98,10 @@
 			</div>
 
 	</header>
+
+	<!--
+                The purpose of this section is to give the user another few snippets of infomation that are related to the application. I used font awesome icons to add some flavour here.
+        -->
 	<section class="container-fluid">
 		<div class="row ">
 			<div class="col-12 col-md-4 entice-container entice-style ">
@@ -135,6 +144,11 @@
 		</div>
 	</section>
 
+	<!--
+            I have yet another section dedicated to convincing the user to purchase the app/get a free trial. I dont want to overwhelm the user so I kept it short. Also added another free trial
+            button to make the choice a little easier.
+        -->
+
 	<section class=" container-fluid call-to-action-section" id="mid">
 		<div class="row margin-container-small">
 			<div class="col-12 peace-icon">
@@ -174,6 +188,11 @@
 
 		</div>
 	</section>
+
+	<!-- 
+            My last section I have to directly convince the user to get the app is three quote bubbles from industry experts. Sometimes, its not enough for the website itself to tell you the product is good, so I have 3 quotes here to get an outside perspective on the application. The name and quote picture are clickable links but was advised to have the href remain blank.
+        
+    -->
 	<section class="quotes-section container-fluid">
 		<div class="container-wrapper">
 			<div class="container quotes-container content-container">
@@ -182,21 +201,20 @@
 				<div class="row">
 					<div class="col-12 col-md-6">
 						<div class="quote">
-							<p class="mobile-text-margin">“I’ve been incredibly impressed with this app. Whether you
-								want to sharpen your mind or
-								experience more peace,
-								this can help in dramatic fashion. The power of its progression is hard to overstate.”
+							<p class="mobile-text-margin">“Silence is hands down one of the most intuitively designed
+								apps there is. Not only that, it has one of the widest selections
+								of teachers on any platform, including myself.”
 							</p>
 						</div>
 						<div class="media">
 							<div class=" d-sm-block">
-								<a href="http://www.robburbea.com/">
+								<a target="_blank" href="#">
 									<img src="assets/images/rob.jpg" alt="Rob Burbea" class="rounded-circle mr-3" height=100 width=100>
                                     </a>
 							</div>
 							<div class="media-body">
 								<blockquote class="blockquote">
-									<a href="http://www.robburbea.com/" class="quote-person"><span>Rob Burbea</span></a>
+									<a target="_blank" href="#" class="quote-person"><span>Rob Burbea</span></a>
 									<p class="about-person">Rob Burbea is a meditation teacher, musician,
 										and author who teaches at Gaia House in Devon, England.</p>
 
@@ -206,22 +224,20 @@
 					</div>
 					<div class="col-12 col-md-6">
 						<div class="quote">
-							<p class="mobile-text-margin-quote">“I’ve been incredibly impressed with this app. Whether
-								you want to sharpen your mind
-								or experience more peace,
-								this can help in dramatic fashion. The power of its progression is hard to
-								overstate.”</p>
+							<p class="mobile-text-margin-quote">“There is no better meditation app that I have found for
+								both beginners and adepts. You'll see life changing results
+								in as little as three weeks.”</p>
 						</div>
 						<div class="media">
 							<div class="d-sm-block">
 								<a
-									href="http://openheartopenheart.blogspot.com/2019/08/culadasa-john-yates-sutrayana-doesnt-go.html">
+									target="_blank" href="#">
 									<img src="assets/images/Culadasa.jpg" alt="Culadasa" class="rounded-circle mr-3" height=100 width=100></a>
 							</div>
 							<div class="media-body">
 								<blockquote class="blockquote">
 
-									<a href="http://openheartopenheart.blogspot.com/2019/08/culadasa-john-yates-sutrayana-doesnt-go.html"
+									<a target="_blank" href="#"
 										class="quote-person"><span>Culadasa</span></a>
 
 									<p class="about-person">Culadasa is a meditation teacher with over four decades of
@@ -236,23 +252,21 @@
 					<div class="row quote-3">
 						<div class="col-12 col-md-6 offset-md-3 ">
 							<div class="quote">
-								<p class="mobile-text-margin">“I’ve been incredibly impressed with this app. Whether you
-									want to sharpen your mind
-									or
-									experience more peace,
-									this can help in dramatic fashion. The power of its progression is hard to
-									overstate.”
+								<p class="mobile-text-margin">“Meditation can be a very troublesome habit to form, but I
+									havent found a better app to date than this that gently encourages you to stick to a
+									daily routine, thats the first major step. Thanks a lot Conor for creating this
+									application.”
 								</p>
 							</div>
 							<div class="media">
 								<div class="d-sm-block">
-									<a href="https://www.shinzen.org/">
+									<a target="_blank" href="#">
 										<img src="assets/images/shinzen.jpg" alt="Shinzen Young" class="rounded-circle mr-3" height=100 width=100>
  </a>
 								</div>
 								<div class="media-body">
 									<blockquote class="blockquote">
-										<a href="https://www.shinzen.org/"
+										<a target="_blank" href="#"
 											class="quote-person"><span>Shinzen Young</span></a>
 
 										<p class="about-person">Shinzen Young is an American born mindfulness teacher
@@ -270,37 +284,41 @@
 			</div>
 		</div>
 	</section>
+    <!--    
+
+        Finally we've the footer. It includes terms and conditions, privacy policy (which I would've added as seperate pages given more time), hte social media links (again, I havent fleshed those features out) and two buttons for downloading the app on different phone devices. I kept the blue/orange colour theme here to maintain consistency to the website.)
+    -->
 
 	<footer class="container-fluid margin-container-small">
-		<div class=" footer-details row">
+		<div class="row footer-margin">
 			<div class="col-12 col-lg-4 ">
 
 				<div class="footer-media-query">
 
-					<ul class="footer-list-style footer-media-query ">
-						<li class="li-style footer-media-query">
+					<ul class="footer-style">
+						<li class="li-style-footer">
 							@2020 Silence Ltd
 						</li>
 
-						<li class="li-style">
+						<li class="li-style-footer">
 							Terms and Conditions
 						</li>
-						<li class="li-style">
+						<li class="li-style-footer">
 							Privacy Policy
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class=" col-lg-4">
+			<div class="col-12 col-lg-4">
 
-				<ul class="list-inline social-links">
-					<li class="list-inline-item">
+				<ul class="social-links">
+					<li class="list-inline-item footer-link-media-query">
 						<a target="_blank" href="#">
 							<i class="fa fa-facebook" aria-hidden="true"></i>
 							<span class="sr-only">Facebook</span>
 						</a>
 					</li>
-					<li class="list-inline-item">
+					<li class="list-inline-item footer-link-media-query">
 						<a target="_blank" href="#">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 							<span class="sr-only">Twitter</span>
@@ -308,13 +326,13 @@
 					</li>
 
 
-					<li class="list-inline-item">
+					<li class="list-inline-item footer-link-media-query">
 						<a target="_blank" href="#">
 							<i class="fa fa-instagram" aria-hidden="true"></i>
 							<span class="sr-only">Instagram</span>
 						</a>
 					</li>
-					<li class="list-inline-item">
+					<li class="list-inline-item footer-link-media-query">
 						<a target="_blank" href="#">
 							<i class="fa fa-youtube" aria-hidden="true"></i>
 							<span class="sr-only">YouTube</span>
@@ -324,7 +342,7 @@
 			</div>
 
 
-			<div class="col-lg-4">
+			<div class=" col-12 col-lg-4">
 
 				<div class="footer-media-query">
 
@@ -339,33 +357,33 @@
 		</div>
 	</footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="modal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title .modal-title-style ">Enter your details below to start your Free Trial</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	<div class="modal" tabindex="-1" role="dialog" id="modal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title .modal-title-style ">Enter your details below to start your Free Trial</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1" class="label-style">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="exampleInputEmail1" class="label-style">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
                         </div>
-                        <div class="form-group">
-                            <label for="password" class="label-style">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+							<div class="form-group">
+								<label for="password" class="label-style">Password</label>
+								<input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
-                        
-                        <button type="submit" class="btn btn-success commence-free-trial-button hvr-float-shadow">Commence Free Trial</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
+								<button type="submit" class="btn btn-success commence-free-trial-button hvr-float-shadow">Commence Free Trial</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

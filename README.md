@@ -1,8 +1,8 @@
-SILENCE 
+# SILENCE 
 
 The objective of this website is to attract potential customers into downloading the Silecne meditation app via this well put together website. I give snippets of freely available infomation via the How to Meditate page and answer some of the more obvious queries in my questions page. I have also provided recommendations on the index.html from esteemed teachers in the field.
 
-UX
+## UX
 
 As stated previously, the goal of the website is to convince the customer to download the the Silence application. I believe an application to be the superior product for a meditation type product. That doesn't mean you should skimp out on the website, a good first impression is key. Below, I have several different types of customers who require answers and ill explain how this website achieves its goal in answering their questions.
 
@@ -17,9 +17,9 @@ Convinced user: They like what they see and want the app. They need only to pres
 
 
 
-FEATURES
+## FEATURES
 
--FOR ALL PAGES:
+ ### -FOR ALL PAGES:
 
 Navbar- styled the same as the header for a smooth look. Will allow you the user to go to the homepage, go to the other pages on the site, a clickable icon that brings you to the main content of the page and most importantly, a free trial button.
 
@@ -27,7 +27,7 @@ a title with a small amount of text to provide context for the overall page you'
 
 Footer- Contains terma and conditions, privacy policy as well as icons for our various social media pages. Lastly, we have buttons to download the app directly for iphone and android.
 
--index.html:
+ ### -index.html:
 
 Entice section:Provides the user short snippets of what meditation can do, where you can get help from others and from us on how to do it.
 
@@ -35,12 +35,12 @@ why use silence section: Again, more reasoning as to why use our app/website and
 
 Quotes: Quotes from industry experts on how great the app is with links on their profiles for the curious.
 
--howtomeditate.html:
+### -howtomeditate.html:
 
 steps: 3 different rows presenting visually pleasing colours and images. There is a row for each step involved.
 
 
--questions.html:
+### -questions.html:
 
 q&a: questions are presented neatly in this page and the answers are hidden behind an accordion to prevent visual clutter on the page.
 
@@ -55,33 +55,43 @@ I had also wanted to make privacy policy plus a terms and conditions page but I 
 Lastly, I wanted to add more functionality to the forms, but I only went as far as the demostrations went on code institute.
 
 
-TECHNOLOGIES USED
+ ## Technologies Used 
 
-bootstrap: Conveniant grid system for laying out my webpage plus many other functionalities, such as a collapsable navbar and a accordion. https://getbootstrap.com/
+ bootstrap: Conveniant grid system for laying out my webpage plus many other functionalities, such as a collapsable navbar and a accordion. https://getbootstrap.com/
 
 fontawesome: Most of my text was imported from here and I frequently made use of their icons.https://fontawesome.com/
 
 Hover.css: Used to make my buttons and anchor arrow more attractive upon hovering over them. https://ianlunn.github.io/Hover/
 
-jquery:
+html 5:
+
+css:
 
 
 
-TESTING
 
-DEPLOYMENT
 
-CREDITS
 
-Media:
 
-mobile phone image:https://www.tenpercent.com/
+## TESTING
+
+## DEPLOYMENT
+
+ ##CREDITS
+
+### Content
+
+
+
+ 
+ ### Credits to Media:
+
 three steps images:https://pixabay.com/
 cartoon monks:https://pngtree.com/
 
 
 
-Acknowledgements:
+### Acknowledgements:
 
- I would like to thank the makers of both wakingup.com and headspace.com for inspiration and general guidelines as to how I should structure my website.
+ I would like to thank the makers of both wakingup.com and headspace.com for inspiration for making this website.
 
