@@ -2,6 +2,8 @@
 
 The objective of this website is to attract potential customers into downloading the Silecne meditation app via this well put together website. I give snippets of freely available infomation via the How to Meditate page and answer some of the more obvious queries in my questions page. I have also provided recommendations on the index.html from esteemed teachers in the field.
 
+![Image of Monk](assets/images/monk2.png)
+
 ## UX
 
 As stated previously, the goal of the website is to convince the customer to download the the Silence application. I believe an application to be the superior product for a meditation type product. That doesn't mean you should skimp out on the website, a good first impression is key. Below, I have several different types of customers who require answers and ill explain how this website achieves its goal in answering their questions.
@@ -14,12 +16,9 @@ skeptical user: The user just isnt convinced at all to download the app or take 
 
 Convinced user: They like what they see and want the app. They need only to press the free trial button and a form will pop up where they must present their infomation. They need only click commence free trial.
 
-
-
-
 ## FEATURES
 
- ### -FOR ALL PAGES:
+ ##### -For all Pages:
 
 Navbar- styled the same as the header for a smooth look. Will allow you the user to go to the homepage, go to the other pages on the site, a clickable icon that brings you to the main content of the page and most importantly, a free trial button.
 
@@ -27,7 +26,7 @@ a title with a small amount of text to provide context for the overall page you'
 
 Footer- Contains terma and conditions, privacy policy as well as icons for our various social media pages. Lastly, we have buttons to download the app directly for iphone and android.
 
- ### -index.html:
+##### -index.html:
 
 Entice section:Provides the user short snippets of what meditation can do, where you can get help from others and from us on how to do it.
 
@@ -35,16 +34,24 @@ why use silence section: Again, more reasoning as to why use our app/website and
 
 Quotes: Quotes from industry experts on how great the app is with links on their profiles for the curious.
 
-### -howtomeditate.html:
+##### -howtomeditate.html:
 
 steps: 3 different rows presenting visually pleasing colours and images. There is a row for each step involved.
 
-
-### -questions.html:
+##### -questions.html:
 
 q&a: questions are presented neatly in this page and the answers are hidden behind an accordion to prevent visual clutter on the page.
 
-FEATURES LEFT TO IMPLEMENT
+
+
+To help me plan out these different pages and features, I present 3 wireframes I made beforehand to give me a structural idea as to how I wanted the pages to be designed.
+
+[Index](https://wireframe.cc/pro/pp/4b09977a1319776)
+[Questions](https://wireframe.cc/lv90Bh)
+[How to Meditate](https://wireframepro.mockflow.com/editor.jsp?editor=on&bgcolor=white&perm=Create&ptitle=silence&category=bootstrap4&projectid=Mdd152ebd34bd1c66bbf684533b4891541587576761474&publicid=7c25f576ee27457ea932b86fdfb31d7a#/page/d20cc7e320894f6b8cf9183729f00edc)
+
+
+## FEATURES LEFT TO IMPLEMENT
 
 Smooth transation upon pressing the anchor arrow: Upon research it required JS which is beyon the scope of this lesson.The idea was to make it have a scrolling animation.
 
@@ -54,8 +61,7 @@ I had also wanted to make privacy policy plus a terms and conditions page but I 
 
 Lastly, I wanted to add more functionality to the forms, but I only went as far as the demostrations went on code institute.
 
-
- ## Technologies Used 
+ ## TECHNOLOGIES USED
 
  bootstrap: Conveniant grid system for laying out my webpage plus many other functionalities, such as a collapsable navbar and a accordion. https://getbootstrap.com/
 
@@ -63,35 +69,70 @@ fontawesome: Most of my text was imported from here and I frequently made use of
 
 Hover.css: Used to make my buttons and anchor arrow more attractive upon hovering over them. https://ianlunn.github.io/Hover/
 
-html 5:
+html 5: The bare bones of my entire website
 
-css:
-
-
-
-
-
-
+css: For styling to make the website more attractive and fluid.
 
 ## TESTING
 
+##### Scenario 1:Curious User-
+
+1. Scroll through index.html top to bottom
+2. Click links on quotes
+3. click anchor arrow in nav
+4. Test these actions on all view widths
+
+Result: All the above actions work as intended.
+
+##### Scenario 2:Semi on board user-
+
+1. Click on how to meditate in the navigation
+2. Scroll or use anchor arrow to get to steps on how to meditate
+3. Test to see appropriate responsiveness in different view widths
+
+Result: All the above actions work as intended.
+
+##### Scenario 3:Skeptical user-
+
+1. Click on questions in the navigation
+2. scroll or use anchor arrow to the questions section
+3. Click on each accordion to see if it reveals the hidden content
+4. Test these actions on all view widths
+
+Result: All the above actions work as intended. However sometimes the monk image wont load in the header of questions.html. It is far less consistent in loading than the rest of the images. Currently haven't found a fix besides constantly reloading the page and having luck. I removed and added the image again just before submitting this project and that may have fixed the issue.
+
+##### Scenario 4:Convinced User-
+
+1. Press any free trial button
+2. Submit a form with an invalid email address and see if you get an error message.
+3. Check every button to see if it opens up the form.
+
+Result: All above actions works as intended.
+
+
+All the above tests were conducted on Opera, Mozilla Firefox and Google Chrome. I coded this project on Chrome so everything is perfect on that browser. Opera seems to work as I intended too.The only problem I ran between browsers is that Firefox didnt use my imported fonts from font awesome. Luckily, I had an alternate font of sans-serif in places where Lato didnt load so there was no major issues I had while running Firefox.
+
+
 ## DEPLOYMENT
 
- ##CREDITS
+This website was developed entirely on gitpod.io. Simply, I added the files to the staging area, commited them and finally pushed them to github. Early on in my project I didnt commit nearly as much as I should have but made it a habit by the end. My initial commit consisted of a mostly finsished index.html, my second commit included the additional 2 pages of howtomeditate.html and    questions.html. Every commit after that only had minor modifications added onto it.
 
-### Content
+Below is a URL to my website. You may need to download the project to gitpod.io and open port 8000 to see it however.
 
+https://8000-adc86bfd-ba46-4196-9036-20adbc109bb3.ws-eu01.gitpod.io/index.html
 
+ ## CREDITS
 
- 
- ### Credits to Media:
+##### Content-
+
+ I borrowed some of the basic code for the footer and quotes from two codeinstituteprojects but added a lot of styling and tweaking ontop of it. The Modal and accordion came directly from the boostrap website where I added my own styling and tweaks to it.
+
+ ##### Credits to Media-
 
 three steps images:https://pixabay.com/
 cartoon monks:https://pngtree.com/
 
+##### Acknowledgements-
 
-
-### Acknowledgements:
-
- I would like to thank the makers of both wakingup.com and headspace.com for inspiration for making this website.
+ I would like to thank the makers of both wakingup.com and headspace.com for inspiration for making this website. I didnt copy any code from there but I miminicked some of their design philosophy.
 

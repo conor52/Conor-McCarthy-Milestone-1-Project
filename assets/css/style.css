@@ -3,9 +3,6 @@
 
  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
  
-
-
-
 /** Colors **/
 
 header {
@@ -13,8 +10,6 @@ header {
  background-color:#4d94ff;
  
 }
-
-
 
 .title {
 
@@ -34,10 +29,7 @@ header {
  text-decoration: none;
 }
 
-
-
 /** Navigation **/
-
 
 .toggler-style {
 
@@ -45,7 +37,7 @@ header {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     margin-top:20px;
     margin-left:30px;
- 
+
 }
 
 .nav a {
@@ -60,10 +52,6 @@ header {
  font-size: 18px;
  color:white;
 }
-
-
-
-
 
 .title-link {
 
@@ -80,8 +68,6 @@ header {
 
  padding:15px;
 }
-
-
 
 #mid {
 
@@ -127,8 +113,6 @@ header {
     
 }
 
-
-
 .call-to-action-image-questions {
 
  
@@ -136,8 +120,6 @@ position:relative;
 bottom:125px;
 margin-bottom:30px;
 
- 
- 
 }
 
 .image-question {
@@ -147,16 +129,10 @@ margin-bottom:30px;
 
 .call-to-action-image-howtomeditate {
 
- 
-
-
 position:relative;
 bottom:150px;
 margin-bottom:100px;
- 
- 
 }
-
 
 /** entice style **/
 
@@ -174,12 +150,9 @@ margin-bottom:100px;
 
 /** Containers **/
 
-
 .entice-container {
 
- 
  text-align: center;
- 
  background-color:#e6f0ff;
  padding-top:45px;
  padding-bottom:45px;
@@ -198,8 +171,6 @@ margin:0;
 padding:0;
 }
 
-
-
 .margin-0-container {
 
  margin-top:0px;
@@ -211,8 +182,6 @@ padding:0;
  margin-top:150px;
  
 }
-
-
 
 .why-meditate-button-container {
 
@@ -236,16 +205,12 @@ display: flex;
 
 .front-text h1 {
 
- 
- 
  color:white;
  font-family: 'Lato' , sans-serif;
  font-weight:600;
  font-size:32px;
  
 }
-
-
 
 .front-text p {
 
@@ -269,7 +234,6 @@ display: flex;
 
  text-decoration: none;
 }
- 
 
 /** Quotes **/
 
@@ -277,7 +241,6 @@ display: flex;
 
  margin-top:20px;
 }
-
 
 .content-container {
  padding-top: 75px;
@@ -346,10 +309,6 @@ display: flex;
     background-color:#95a1d0;
 }
 
-
-
-
-
 /** Icons **/
 
 .icon {
@@ -403,7 +362,6 @@ margin-left:10px;
  border-color:#4d94ff;
 
 }
-
 
 .free-trial-button-why-meditate {
 
@@ -518,10 +476,6 @@ font-family:"Lato", sans-serif;
 
 }
 
-
-
-
-
 .panel-title {
 
     text-decoration: none;
@@ -536,8 +490,6 @@ font-family:"Lato", sans-serif;
 
     color:#0080ff;
 }
-
- 
 
 .question-link:hover {
 
@@ -570,8 +522,6 @@ font-family:"Lato", sans-serif;
 
     margin-top:45px;
     margin-bottom:45px;
-   
-    
 }
 
 .line-style-final {
@@ -579,10 +529,7 @@ font-family:"Lato", sans-serif;
  margin-top:45px;
     margin-bottom:150px;
 
-
 }
-    
-
 
 .panel-body {
 
@@ -591,18 +538,12 @@ font-family:"Lato", sans-serif;
     margin-right:45px;
 }
 
-
-
 /** How to Mediate **/
 
 .step-image {
 
    width:100%;
    height:100%;
-    
- 
-
-    
 }
 
 .step-image-2 {
@@ -633,19 +574,15 @@ font-family:"Lato", sans-serif;
 width: 55%;
 margin: auto;
 
-
-
 }
 
 .step-list-item {
 
-    
-    
  font-family:"Lato", sans-serif;
  font-size: 20px;
  font-weight:500;
  margin-top:10px;
-margin-bottom:10px;
+ margin-bottom:10px;
 
 }
 
@@ -656,8 +593,8 @@ margin-bottom:10px;
  font-family:"Lato", sans-serif;
  font-weight:500;
  margin-top:40px;
-margin-bottom:10px;
-font-size: 20px;
+ margin-bottom:10px;
+ font-size: 20px;
 
 }
 
@@ -666,19 +603,15 @@ font-size: 20px;
 .modal-title-style {
 
 font-size: 18px;
- font-family: 'Lato' , sans-serif;
+font-family: 'Lato' , sans-serif;
 }
 
 
 .label-style {
 
-    font-size: 16px;
+ font-size: 16px;
  font-family: 'Lato' , sans-serif;
 }
-
-
-
-
 
  /** Footer **/
 
@@ -700,7 +633,6 @@ font-size: 18px;
 
 .li-style-footer {
 
- 
  padding:5px;
  font-size: 18px;
  font-family: 'Lato' , sans-serif;
@@ -743,8 +675,6 @@ font-size: 18px;
 
 /** Media Querys **/
 
-
-
 @media only screen and (max-width: 576px) {
 
 .step-list {
@@ -755,8 +685,6 @@ margin: auto;
 }
 
 }
-
-
 
 @media only screen and (max-width:1200px) {
 
@@ -795,8 +723,6 @@ margin-top:100px;
     position:none;
     bottom:auto;
 }
-
-
 }
 
 @media only screen and (max-width:576px) {
@@ -806,15 +732,11 @@ margin-top:100px;
     position:none;
     bottom:auto;
 }
-
-
 }
 
 @media only screen and (max-width: 576px) {
 
 .step-list-item-bottom {
-
-
 margin-bottom:40px;
 
 }
@@ -828,29 +750,24 @@ margin-bottom:40px;
  margin:auto;
  
 }
-
 }
 
 @media only screen and (max-width: 576px) {
  
 .h2-qa {
 
- 
  text-align:center;
  font-size:28px;
 }
-
 }
 
 @media only screen and (max-width: 992px) {
  
-
 .mobile-text-margin {
 
  margin-left:25px;
  margin-right:25px;
 }
-
 }
 
 @media only screen and (max-width: 992px) {
@@ -908,8 +825,6 @@ margin-bottom:40px;
 
 }
 
-
-
 @media only screen and (min-width:992px) {
  
  .free-trial-button-front-text {
@@ -919,7 +834,6 @@ margin-bottom:40px;
 }
 
 @media only screen and (max-width: 576px) {
- 
 
 .button-wrapper {
 
@@ -939,20 +853,11 @@ margin-bottom:40px;
 
 }
 
-
-
 @media only screen and (max-width: 992px) {
  
-
-
 .footer-media-query {
 
-
-
 margin-top:40px;
-
 text-align: center;
-
 }
-
 }
