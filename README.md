@@ -63,11 +63,11 @@ Lastly, I wanted to add more functionality to the forms, but I only went as far 
 
  ## TECHNOLOGIES USED
 
- bootstrap: Conveniant grid system for laying out my webpage plus many other functionalities, such as a collapsable navbar and a accordion. https://getbootstrap.com/
+ [bootstrap:](https://getbootstrap.com/) Conveniant grid system for laying out my webpage plus many other functionalities, such as a collapsable navbar and a accordion.
 
-fontawesome: Most of my text was imported from here and I frequently made use of their icons.https://fontawesome.com/
+[fontawesome:](https://fontawesome.com/) Most of my text was imported from here and I frequently made use of their icons.
 
-Hover.css: Used to make my buttons and anchor arrow more attractive upon hovering over them. https://ianlunn.github.io/Hover/
+[Hover.css:](https://ianlunn.github.io/Hover/) Used to make my buttons and anchor arrow more attractive upon hovering over them. 
 
 html 5: The bare bones of my entire website
 
@@ -112,14 +112,14 @@ Result: All above actions works as intended.
 
 All the above tests were conducted on Opera, Mozilla Firefox and Google Chrome. I coded this project on Chrome so everything is perfect on that browser. Opera seems to work as I intended too.The only problem I ran between browsers is that Firefox didnt use my imported fonts from font awesome. Luckily, I had an alternate font of sans-serif in places where Lato didnt load so there was no major issues I had while running Firefox.
 
-
 ## DEPLOYMENT
 
 This website was developed entirely on gitpod.io. Simply, I added the files to the staging area, commited them and finally pushed them to github. Early on in my project I didnt commit nearly as much as I should have but made it a habit by the end. My initial commit consisted of a mostly finsished index.html, my second commit included the additional 2 pages of howtomeditate.html and    questions.html. Every commit after that only had minor modifications added onto it.
 
-Below is a URL to my website. You may need to download the project to gitpod.io and open port 8000 to see it however.
+Below is a Deployed URL to my website. 
 
-https://8000-adc86bfd-ba46-4196-9036-20adbc109bb3.ws-eu01.gitpod.io/index.html
+https://conor52.github.io/Conor-McCarthy-Milestone-1-Project/
+
 
  ## CREDITS
 
@@ -129,10 +129,9 @@ https://8000-adc86bfd-ba46-4196-9036-20adbc109bb3.ws-eu01.gitpod.io/index.html
 
  ##### Credits to Media-
 
-three steps images:https://pixabay.com/
-cartoon monks:https://pngtree.com/
+[three steps images:](https://pixabay.com/)
+[cartoon monks:](https://pngtree.com/)
 
 ##### Acknowledgements-
 
  I would like to thank the makers of both wakingup.com and headspace.com for inspiration for making this website. I didnt copy any code from there but I miminicked some of their design philosophy.
-
