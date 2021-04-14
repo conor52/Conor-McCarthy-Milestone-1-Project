@@ -1,6 +1,6 @@
 # SILENCE 
 
-The objective of this website is to attract potential customers into downloading the Silecne meditation app via this well put together website. I give snippets of freely available infomation via the How to Meditate page and answer some of the more obvious queries in my questions page. I have also provided recommendations on the index.html from esteemed teachers in the field.
+The objective of this website is to attract potential customers into downloading the Silence meditation app via this well put together website. I give snippets of freely available information via the How to Meditate page and answer some of the more obvious queries in my questions page. I have also provided recommendations on the index.html from esteemed teachers in the field.
 
 ![Image of Monk](assets/images/monk2.png)
 
@@ -10,11 +10,11 @@ As stated previously, the goal of the website is to convince the customer to dow
 
 Curious user:They would ask "why use this application over any other?". For the most part, this is answered in the index.html. I've offered the user by offering a free trial which they can see clearly straight away in the header. Not only that, just below I give 3 presentable statements with some context in what I called the "entice section. This is further reinforced in the "why use silence" section that gives a brief reasoning why you should use this app over any other. They might still not convinced, so I have one last ditch effort where I have presented 3 quotes from established meditators giving a brief description of who they are and I've added clickable links on their name and icons to an external website explaining who they are.
 
-Semi on board user: At this point, the user might think "ok im not up for downloading the app just yet but I want to learn some basic tips". Their needs can be satisfied in the "howtomediate.html" page. I divided the content in a 3 step process presenting great imagery with matching colours in the container. The goal here is they take away this infomation themselves, like the results they're seeing and download the app with the free trial, eventually they should (hopefully) become full time customers.
+Semi on board user: At this point, the user might think "ok im not up for downloading the app just yet but I want to learn some basic tips". Their needs can be satisfied in the "howtomediate.html" page. I divided the content in a 3 step process presenting great imagery with matching colours in the container. The goal here is they take away this information themselves, like the results they're seeing and download the app with the free trial, eventually they should (hopefully) become full time customers.
 
-skeptical user: The user just isnt convinced at all to download the app or take in the meditation instructions but is at least open minded enough to check the Q&A. This should (hopefully) let them question their doubts over the whole idea and download the application.
+skeptical user: The user just isn't convinced at all to download the app or take in the meditation instructions but is at least open minded enough to check the Q&A. This should (hopefully) let them question their doubts over the whole idea and download the application.
 
-Convinced user: They like what they see and want the app. They need only to press the free trial button and a form will pop up where they must present their infomation. They need only click commence free trial.
+Convinced user: They like what they see and want the app. They need only to press the free trial button and a form will pop up where they must present their information. They need only click commence free trial.
 
 ## FEATURES
 
@@ -22,9 +22,9 @@ Convinced user: They like what they see and want the app. They need only to pres
 
 Navbar- styled the same as the header for a smooth look. Will allow you the user to go to the homepage, go to the other pages on the site, a clickable icon that brings you to the main content of the page and most importantly, a free trial button.
 
-a title with a small amount of text to provide context for the overall page you're on. also has a free trial button and an attractive, accompaning image in the next col.
+a title with a small amount of text to provide context for the overall page you're on. also has a free trial button and an attractive, accompanying image in the next col.
 
-Footer- Contains terma and conditions, privacy policy as well as icons for our various social media pages. Lastly, we have buttons to download the app directly for iphone and android.
+Footer- Contains terma and conditions, privacy policy as well as icons for our various social media pages. Lastly, we have buttons to download the app directly for iPhone and android.
 
 ##### -index.html:
 
@@ -53,17 +53,17 @@ To help me plan out these different pages and features, I present 3 wireframes I
 
 ## FEATURES LEFT TO IMPLEMENT
 
-Smooth transation upon pressing the anchor arrow: Upon research it required JS which is beyon the scope of this lesson.The idea was to make it have a scrolling animation.
+Smooth transition upon pressing the anchor arrow: Upon research it required JS which is beyond the scope of this lesson.The idea was to make it have a scrolling animation.
 
 changing icons in q&a:I wanted the blue gate icons to instead be a plus icon, upon clicking it, it'd smoothly transition into a minus. Again, something of this technicality was beyond what I've learned so far. Javascript was probably needed to make this feature functional.
 
-I had also wanted to make privacy policy plus a terms and conditions page but I had ran out of time to do so. I dont think there would be any technical difficulties doing so.
+I had also wanted to make privacy policy plus a terms and conditions page but I had ran out of time to do so. I don't think there would be any technical difficulties doing so.
 
-Lastly, I wanted to add more functionality to the forms, but I only went as far as the demostrations went on code institute.
+Lastly, I wanted to add more functionality to the forms, but I only went as far as the demonstrations went on code institute.
 
  ## TECHNOLOGIES USED
 
- [bootstrap:](https://getbootstrap.com/) Conveniant grid system for laying out my webpage plus many other functionalities, such as a collapsable navbar and a accordion.
+ [bootstrap:](https://getbootstrap.com/) convenient grid system for laying out my webpage plus many other functionalities, such as a Collapsible  navbar and a accordion.
 
 [fontawesome:](https://fontawesome.com/) Most of my text was imported from here and I frequently made use of their icons.
 
@@ -110,11 +110,11 @@ Result: All the above actions work as intended. However sometimes the monk image
 Result: All above actions works as intended.
 
 
-All the above tests were conducted on Opera, Mozilla Firefox and Google Chrome. I coded this project on Chrome so everything is perfect on that browser. Opera seems to work as I intended too.The only problem I ran between browsers is that Firefox didnt use my imported fonts from font awesome. Luckily, I had an alternate font of sans-serif in places where Lato didnt load so there was no major issues I had while running Firefox.
+All the above tests were conducted on Opera, Mozilla Firefox and Google Chrome. I coded this project on Chrome so everything is perfect on that browser. Opera seems to work as I intended too.The only problem I ran between browsers is that Firefox didn't use my imported fonts from font awesome. Luckily, I had an alternate font of sans-serif in places where Lato didn't load so there was no major issues I had while running Firefox.
 
 ## DEPLOYMENT
 
-This website was developed entirely on gitpod.io. Simply, I added the files to the staging area, commited them and finally pushed them to github. Early on in my project I didnt commit nearly as much as I should have but made it a habit by the end. My initial commit consisted of a mostly finsished index.html, my second commit included the additional 2 pages of howtomeditate.html and    questions.html. Every commit after that only had minor modifications added onto it.
+This website was developed entirely on gitpod.io. Simply, I added the files to the staging area, committed them and finally pushed them to github. Early on in my project I didn't commit nearly as much as I should have but made it a habit by the end. My initial commit consisted of a mostly finished index.html, my second commit included the additional 2 pages of howtomeditate.html and    questions.html. Every commit after that only had minor modifications added onto it.
 
 Below is a Deployed URL to my website. 
 
@@ -125,7 +125,7 @@ https://conor52.github.io/Conor-McCarthy-Milestone-1-Project/
 
 ##### Content-
 
- I borrowed some of the basic code for the footer and quotes from two codeinstituteprojects but added a lot of styling and tweaking ontop of it. The Modal and accordion came directly from the boostrap website where I added my own styling and tweaks to it.
+ I borrowed some of the basic code for the footer and quotes from two codeinstitute projects but added a lot of styling and tweaking on top of it. The Modal and accordion came directly from the Bootstrap website where I added my own styling and tweaks to it.
 
  ##### Credits to Media-
 
@@ -134,4 +134,4 @@ https://conor52.github.io/Conor-McCarthy-Milestone-1-Project/
 
 ##### Acknowledgements-
 
- I would like to thank the makers of both wakingup.com and headspace.com for inspiration for making this website. I didnt copy any code from there but I miminicked some of their design philosophy.
+ I would like to thank the makers of both wakingup.com and headspace.com for inspiration for making this website. I didn't copy any code from there but I mimicked some of their design philosophy.
