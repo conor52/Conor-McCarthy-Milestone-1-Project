@@ -114,7 +114,7 @@ All the above tests were conducted on Opera, Mozilla Firefox and Google Chrome. 
 
 ## DEPLOYMENT
 
-This website was developed entirely on gitpod.io. Simply, I added the files to the staging area, committed them and finally pushed them to github. Early on in my project I didn't commit nearly as much as I should have but made it a habit by the end. My initial commit consisted of a mostly finished index.html, my second commit included the additional 2 pages of howtomeditate.html and    questions.html. Every commit after that only had minor modifications added onto it.
+This website was developed entirely on gitpod.io. Simply, I added the files to the staging area, committed them and finally pushed them to github. Early on in my project I didn't commit nearly as much as I should have but made it a habit by the end. My initial commit consisted of a mostly finished index.html, my second commit included the additional 2 pages of howtomeditate.html and questions.html. Every commit after that only had minor modifications added onto it.
 
 Below is a Deployed URL to my website. 
 

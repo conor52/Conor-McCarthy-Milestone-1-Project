@@ -4,7 +4,9 @@
  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
  
 /** Colors **/
-
+html {
+    scroll-behavior: smooth;
+}
 header {
 
  background-color:#4d94ff;
