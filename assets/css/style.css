@@ -1,136 +1,114 @@
 /** Imported fonts **/
 
 
- @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
- 
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 /** Colors **/
 html {
-    scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 header {
-
- background-color:#4d94ff;
- 
+background-color:#4d94ff;
 }
 
 .title {
-
- text-align: center;
- color:white;
- font-family:"Lato", sans-serif;
- font-weight:800;
- text-transform: uppercase;
- margin-top:20px;
- text-decoration: none;
- font-size: 36px;
- 
+text-align:center;
+color:white;
+font-family:"Lato", sans-serif;
+font-weight:800;
+text-transform: uppercase;
+margin-top:20px;
+text-decoration: none;
+font-size: 36px;
 }
 
 .title:hover {
- color:white;
- text-decoration: none;
+color:white;
+text-decoration: none;
 }
 
 /** Navigation **/
 
 .toggler-style {
-
- 
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    margin-top:20px;
-    margin-left:30px;
-
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+margin-top:20px;
+margin-left:30px;
 }
 
 .nav a {
-
- color:white;
+color:white;
 }
 
 .nav-link {
 
- font-family: 'Lato' , sans-serif;
- text-decoration: none;
- font-size: 18px;
- color:white;
+font-family: 'Lato' , sans-serif;
+text-decoration: none;
+font-size: 18px;
+color:white;
 }
 
 .title-link {
-
- text-decoration: none;
+text-decoration: none;
 }
 
 .title:hover {
-
- 
- color:white;
+color:white;
 }
 
 .nav-item {
 
- padding:15px;
+padding:15px;
 }
 
 #mid {
 
-     transition: all 0.35s;
- -moz-transition: all 0.35s;
- -webkit-transition: all 0.35s;
- -o-transition: all 0.35s ;
+transition: all 0.35s;
+-moz-transition: all 0.35s;
+-webkit-transition: all 0.35s;
+-o-transition: all 0.35s ;
 }
 
 
 
 .nav-item-footer {
-
- display:inline;
+display:inline;
 }
- .nav-link:hover {
 
- color:white;
+.nav-link:hover {
+color:white;
 
- }
+}
 
 
 /** Call to Action **/
 
- .call-to-action-heading {
- text-align: center;
- margin-bottom:20px;
- 
+.call-to-action-heading {
+text-align: center;
+margin-bottom:20px;
+}
 
- }
-
- .call-to-action-paragraph {
- margin:auto;
- }
+.call-to-action-paragraph {
+margin:auto;
+}
 
 
-.call-to-action-image-index {
-
-    margin-bottom:100px;
-    position:relative;
-    bottom:125px;
-    
-    
+.call-to-action-image-index  {
+margin-bottom:100px;
+position:relative;
+bottom:125px;
 }
 
 .call-to-action-image-questions {
-
- 
 position:relative;
 bottom:125px;
 margin-bottom:30px;
-
 }
 
 .image-question {
-
-    width:10%;
+width:10%;
 }
 
 .call-to-action-image-howtomeditate {
-
 position:relative;
 bottom:150px;
 margin-bottom:100px;
@@ -138,332 +116,273 @@ margin-bottom:100px;
 
 /** entice style **/
 
- .entice-style h1 {
+.entice-style h1 {
+font-family:"Lato", sans-serif;
+font-weight:600;
+}
 
- font-family:"Lato", sans-serif;
- font-weight:600;
-
- }
-
- .entice-style p {
-
- font-family:"Lato", sans-serif;
- }
+.entice-style p {
+font-family:"Lato", sans-serif;
+}
 
 /** Containers **/
 
 .entice-container {
-
- text-align: center;
- background-color:#e6f0ff;
- padding-top:45px;
- padding-bottom:45px;
- 
-
+text-align: center;
+background-color:#e6f0ff;
+padding-top:45px;
+padding-bottom:45px;
 }
 
 .margin-container-qa {
-
-    margin-top:175px;
+margin-top:175px;
 }
 
 .margin-steps-container {
-
 margin:0;
 padding:0;
 }
 
 .margin-0-container {
-
- margin-top:0px;
- margin-bottom:0px;
+margin-top:0px;
+margin-bottom:0px;
 }
 
 .margin-container {
-
- margin-top:150px;
- 
+margin-top:150px;
 }
 
 .why-meditate-button-container {
-
 display: flex;
- align-items: center;
- justify-content: center;
+align-items: center;
+justify-content: center;
 }
 
 .margin-container-small {
-
- margin-top:40px;
+margin-top:40px;
 }
 
 .margin-container-quote-bubble {
-
- margin-top:100px;
+margin-top:100px;
 }
 
 /** Front Text **/
 
 
 .front-text h1 {
-
- color:white;
- font-family: 'Lato' , sans-serif;
- font-weight:600;
- font-size:32px;
- 
+color:white;
+font-family: 'Lato' , sans-serif;
+font-weight:600;
+font-size:32px;
 }
 
 .front-text p {
-
- color:white;
- font-family: 'Lato' , sans-serif;
- font-weight:500;
- 
+color:white;
+font-family: 'Lato' , sans-serif;
+font-weight:500;
 }
 
 .center {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width:75%;
- 
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:75%;
 }
 
 /** Links **/
- 
-.name-link {
 
- text-decoration: none;
+.name-link {
+text-decoration: none;
 }
 
 /** Quotes **/
 
 .quotes {
-
- margin-top:20px;
+margin-top:20px;
 }
 
 .content-container {
- padding-top: 75px;
- padding-bottom: 75px;
- margin-top:125px;
+padding-top: 75px;
+padding-bottom: 75px;
+margin-top:125px;
 }
 
 .quotes-section {
- margin-bottom: 25px;
+margin-bottom: 25px;
 }
 
 .quote {
-
- font-family: 'Lato' , sans-serif;
- font-size: 17px;
- margin-bottom:40px;
-
+font-family: 'Lato' , sans-serif;
+font-size: 17px;
+margin-bottom:40px;
 }
 
 .quote-person {
-
- font-weight:800;
- font-family: 'Lato' , sans-serif;
- font-size:22px;
- text-decoration: none;
- color:black;
- 
+font-weight:800;
+font-family: 'Lato' , sans-serif;
+font-size:22px;
+text-decoration: none;
+color:black;
 }
 
 .quote-person:hover {
-
- color:black;
- text-decoration: none;
+color:black;
+text-decoration: none;
 }
 
 .about-person {
-
- font-size: 13px;
- font-family: 'Lato' , sans-serif;
- color:grey;
- font-weight:700;
- 
+font-size: 13px;
+font-family: 'Lato' , sans-serif;
+color:grey;
+font-weight:700;
 }
 
 .quote-3 {
-
- margin-top:70px;
+margin-top:70px;
 }
 
 /** colors **/
 
 .step1-background-colour {
-
-    
-     background-color:#f8da6d;
-    
+background-color:#f8da6d;
 }
 
 .step2-background-colour {
-
-    background-color:#8ecfd7;
+background-color:#8ecfd7;
 }
 
 .step3-background-colour {
-
-    background-color:#95a1d0;
+background-color:#95a1d0;
 }
 
 /** Icons **/
 
 .icon {
-
-
 font-size: 100px;
 color:#ff6600;
 }
 
 .arrow-down-icon {
-
-    font-size: 35px;
-    color:white;
-    margin-left:30px;
-    margin-top:15px;
+font-size: 35px;
+color:white;
+margin-left:30px;
+margin-top:15px;
 }
 
 .question-icon {
-
-    float:right;
-  color:#ff6600;
+float:right;
+color:#ff6600;
 }
 
 .android-iphone {
-
 margin-left:10px;
 }
 
 .question-icon:hover {
-
-    
-    color:#0080ff;
+color:#0080ff;
 }
 
 .peace-icon {
- text-align: center;
- font-size:100px;
- color:#ff6600;
- margin-top:100px;
- margin-bottom:0;
+text-align: center;
+font-size:100px;
+color:#ff6600;
+margin-top:100px;
+margin-bottom:0;
 }
 
 /** Buttons **/
 
 .free-trial-button {
-
- 
- color:#4d94ff; 
- background-color:white;
- font-weight:600;
- border-color:#4d94ff;
-
+color:#4d94ff; 
+background-color:white;
+font-weight:600;
+border-color:#4d94ff;
 }
 
 .free-trial-button-why-meditate {
-
- text-align: center;
- margin-top:20px;
- font-weight:600;
- border-color:white;
- color:white;
- background-color:#4d94ff;
- 
+text-align: center;
+margin-top:20px;
+font-weight:600;
+border-color:white;
+color:white;
+background-color:#4d94ff;
 }
 
 .free-trial-button-why-meditate:hover {
 
- border-color:white;
- color:white;
- background-color:#4d94ff;
+border-color:white;
+color:white;
+background-color:#4d94ff;
 }
 
 .button-wrapper {
 
- text-align: center;
+text-align: center;
 }
 
 .free-trial-button-footer {
-
- color:#4d94ff;
- background-color:white;
- 
- font-weight:600;
- border-color:#4d94ff;;
- width:250px;
- margin:20px;
+color:#4d94ff;
+background-color:white;
+font-weight:600;
+border-color:#4d94ff;;
+width:250px;
+margin:20px;
 
 }
 
 .free-trial-button-footer:hover {
-
- color:#4d94ff;
- background-color:white;
- border-color:#4d94ff;
-
+color:#4d94ff;
+background-color:white;
+border-color:#4d94ff;
 }
 
 .free-trial-button-front-text:hover {
 
- color:#4d94ff;
- background-color:white;
- border-color:#4d94ff;
+color:#4d94ff;
+background-color:white;
+border-color:#4d94ff;
 }
 
 .free-trial-button-nav {
 
- 
- 
- background-color:white;
- margin-top:22px;
- margin-left:10px;
- font-weight:600;
- color:#4d94ff;
- border-color:#4d94ff;
+background-color:white;
+margin-top:22px;
+margin-left:10px;
+font-weight:600;
+color:#4d94ff;
+border-color:#4d94ff;
 }
 
 .free-trial-button-nav:hover {
 
- color:#4d94ff;
- border-color:#4d94ff;
- background-color:white;
+color:#4d94ff;
+border-color:#4d94ff;
+background-color:white;
 }
 
- .call-to-action-button { 
- 
- display:inline-block;
- 
- }
+.call-to-action-button { 
+display:inline-block;
+}
 
- .call-to-action-row-2 {
+.call-to-action-row-2 {
+text-align: center;
+}
 
- text-align: center;
- }
-
- .free-trial-button-nav:hover {
-
- color:#4d94ff;
- background-color:white;
-
+.free-trial-button-nav:hover {
+color:#4d94ff;
+background-color:white;
 }
 
 .commence-free-trial-button {
-
- color:white;
- background-color:#4d94ff;
- border-color: white;
+color:white;
+background-color:#4d94ff;
+border-color: white;
 
 }
 
 .commence-free-trial-button:hover {
-
- color:white;
- background-color:#4d94ff;
+color:white;
+background-color:#4d94ff;
 border-color: white;
 }
 
@@ -471,139 +390,111 @@ border-color: white;
 
 
 .qa {
-
 font-family:"Lato", sans-serif;
- font-weight:600;
- 
-
+font-weight:600;
 }
 
 .panel-title {
-
-    text-decoration: none;
-    color:black;
-    font-size: 24px;
-    font-family:"Lato", sans-serif;
-    font-weight:500;
-    
+text-decoration: none;
+color:black;
+font-size: 24px;
+font-family:"Lato", sans-serif;
+font-weight:500;
 }
 
 .panel-title:hover {
-
-    color:#0080ff;
+color:#0080ff;
 }
 
 .question-link:hover {
-
-    text-decoration: none;
-    
+text-decoration: none;
 }
 
 .panel-title-top {
 
-    text-decoration: none;
-    color:black;
-    font-size: 24px;
-    font-family:"Lato", sans-serif;
-    font-weight:500;
+text-decoration: none;
+color:black;
+font-size: 24px;
+font-family:"Lato", sans-serif;
+font-weight:500;
 }
 
 .panel-title-top:hover {
-
-    color:black;
+color:black;
 }
 
 .line-style-heading {
-
-    margin-top:65px;
-    margin-bottom:45px;
-   
+margin-top:65px;
+margin-bottom:45px;
 }
 
 .line-style {
-
-    margin-top:45px;
-    margin-bottom:45px;
+margin-top:45px;
+margin-bottom:45px;
 }
 
 .line-style-final {
-
- margin-top:45px;
-    margin-bottom:150px;
-
+margin-top:45px;
+margin-bottom:150px;
 }
 
 .panel-body {
-
-    font-family:"Lato", sans-serif;
-    font-size: 18px;
-    margin-right:45px;
+font-family:"Lato", sans-serif;
+font-size: 18px;
+margin-right:45px;
 }
 
 /** How to Mediate **/
 
 .step-image {
-
-   width:100%;
-   height:100%;
+width:100%;
+height:100%;
 }
 
 .step-image-2 {
-
-     width:100%;
-   height:100%;
-  
+width:100%;
+height:100%;
 }
 
 .img-row {
 
-    padding:0;
-    margin:0;
+padding:0;
+margin:0;
 }
 
 .step-h3 {
-
-    text-align: center;
-
-    margin-top:75px;
-    
- font-family:"Lato", sans-serif;
- font-weight:600;
+text-align: center;
+margin-top:75px;
+font-family:"Lato", sans-serif;
+font-weight:600;
 }
 
 .step-list {
-
 width: 55%;
 margin: auto;
-
 }
 
 .step-list-item {
-
- font-family:"Lato", sans-serif;
- font-size: 20px;
- font-weight:500;
- margin-top:10px;
- margin-bottom:10px;
+font-family:"Lato", sans-serif;
+font-size: 20px;
+font-weight:500;
+margin-top:10px;
+margin-bottom:10px;
 
 }
 
 .step-list-item-top {
-
-    
-    
- font-family:"Lato", sans-serif;
- font-weight:500;
- margin-top:40px;
- margin-bottom:10px;
- font-size: 20px;
+font-family:"Lato", sans-serif;
+font-weight:500;
+margin-top:40px;
+margin-bottom:10px;
+font-size: 20px;
 
 }
 
 /* Modal */
 
 .modal-title-style {
-
 font-size: 18px;
 font-family: 'Lato' , sans-serif;
 }
@@ -611,128 +502,109 @@ font-family: 'Lato' , sans-serif;
 
 .label-style {
 
- font-size: 16px;
- font-family: 'Lato' , sans-serif;
+font-size: 16px;
+font-family: 'Lato' , sans-serif;
 }
 
  /** Footer **/
 
- footer {
- background-color:#4d94ff;
- color: white;
- min-height: 140px;
- margin: 0;
+footer {
+background-color:#4d94ff;
+color: white;
+min-height: 140px;
+margin: 0;
 }
 
 .footer-style {
-
- list-style-type: none;
- margin: 0;
- overflow: hidden;
- padding-top:15px;
- text-align:center;
+list-style-type: none;
+margin: 0;
+overflow: hidden;
+padding-top:15px;
+text-align:center;
 }
 
 .li-style-footer {
-
- padding:5px;
- font-size: 18px;
- font-family: 'Lato' , sans-serif;
- font-weight:500;
- display:inline;
+padding:5px;
+font-size: 18px;
+font-family: 'Lato' , sans-serif;
+font-weight:500;
+display:inline;
 }
 
 .social-links {
- padding-bottom: 15px;
- margin-top:20px;
- text-align: center;
+padding-bottom: 15px;
+margin-top:20px;
+text-align: center;
 }
 
 .social-links li a i {
- width: 32px;
- height: 32px;
- padding-top: 14px;
- border-radius: 50%;
- font-size: 13px;
- line-height: 6px;
- text-align: center;
- color:white;
- background:#ff6600;
- transition: all 0.2s ease-in-out;
- -moz-transition: all 0.2s ease-in-out;
- -webkit-transition: all 0.2s ease-in-out;
- -o-transition: all 0.2s ease-in-out;
+width: 32px;
+height: 32px;
+padding-top: 14px;
+border-radius: 50%;
+font-size: 13px;
+line-height: 6px;
+text-align: center;
+color:white;
+background:#ff6600;
+transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
 }
 
 .social-links li a i:hover {
- background:#4d94ff;
+background:#4d94ff;
 }
 
 .footer-margin {
-
-    padding:5px;
+padding:5px;
 }
-
-
 
 /** Media Querys **/
 
 @media only screen and (max-width: 576px) {
 
 .step-list {
-
 width:80%;
 margin: auto;
-
 }
-
 }
 
 @media only screen and (max-width:1200px) {
 
 .call-to-action-image-index {
-
 margin-top:100px;
-
 }
-
 }
 
 @media only screen and (max-width:1200px) {
 
 .call-to-action-image-questions {
-
 margin-top:100px;
-
 }
-
 }
 
 @media only screen and (max-width:1200px) {
 
 .call-to-action-image-howtomeditate {
-
 margin-top:100px;
-
 }
-
 }
 
 @media only screen and (max-width:576px){
 
 .call-to-action-image-questions {
-
-    position:none;
-    bottom:auto;
+position:none;
+bottom:auto;
 }
 }
 
 @media only screen and (max-width:576px) {
 
 .call-to-action-image-howtomeditate {
-
-    position:none;
-    bottom:auto;
+position:none;
+bottom:auto;
 }
 }
 
@@ -740,98 +612,78 @@ margin-top:100px;
 
 .step-list-item-bottom {
 margin-bottom:40px;
-
 }
 }
 
 @media only screen and (max-width: 576px) {
- 
+
 .panel-body {
-
- 
- margin:auto;
- 
+margin:auto;
 }
 }
 
 @media only screen and (max-width: 576px) {
- 
+
 .h2-qa {
 
- text-align:center;
- font-size:28px;
+text-align:center;
+font-size:28px;
 }
 }
 
 @media only screen and (max-width: 992px) {
- 
+
 .mobile-text-margin {
-
- margin-left:25px;
- margin-right:25px;
+margin-left:25px;
+margin-right:25px;
 }
 }
 
 @media only screen and (max-width: 992px) {
- 
 
- .footer-link-media-query {
-
- padding-left:10px;
- padding-right:10px;
- margin-top:30px;
-
+.footer-link-media-query {
+padding-left:10px;
+padding-right:10px;
+margin-top:30px;
 } 
 }
 
 @media only screen and (max-width: 992px) {
- 
 
 .mobile-text-margin-quote {
-
- margin-left:25px;
- margin-right:25px;
- margin-top:10px;
+margin-left:25px;
+margin-right:25px;
+margin-top:10px;
 }
-
 }
 
 @media only screen and (max-width: 576px) {
- 
 
 .front-text h1 {
-
- font-size: 26px;
+font-size: 26px;
 }
-
 }
 
 @media only screen and (max-width: 576px) {
- 
 
 .center {
-
- width:75%;
+width:75%;
 }
-
 }
 
 @media only screen and (max-width: 576px) {
- 
 
 .li-style-footer {
-
- display:block;
- margin-right:25x;
+display:block;
+margin-right:25x;
 }
-
 }
 
 @media only screen and (min-width:992px) {
- 
- .free-trial-button-front-text {
 
- margin-right:30px;
+.free-trial-button-front-text {
+
+margin-right:30px;
 }
 }
 
@@ -839,26 +691,22 @@ margin-bottom:40px;
 
 .button-wrapper {
 
- margin-bottom:40px;
+margin-bottom:40px;
 }
-
 }
 
 @media only screen and (max-width: 576px) {
- 
 
 .title {
+font-size: 28px;
 
- font-size: 28px;
- 
 }
 
 }
 
 @media only screen and (max-width: 992px) {
- 
-.footer-media-query {
 
+.footer-media-query {
 margin-top:40px;
 text-align: center;
 }
