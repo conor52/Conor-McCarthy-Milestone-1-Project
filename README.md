@@ -61,6 +61,9 @@ I had also wanted to make privacy policy plus a terms and conditions page but I 
 
 Lastly, I wanted to add more functionality to the forms, but I only went as far as the demonstrations went on code institute.
 
+*Post Project Submission Note:* For my own curiosity I went back and decided to finish some of these features. Their is now a smooth transition with the anchor arrow and the icons will change thanks so some JS I added. I have demonstrated form functionality in later
+projects so I didn't think it was necessary here and the additional pages I saw as a matter of not having enough time/wasnt required to submit, it was never a question of weather I was competent enough to do it at the time.
+
  ## TECHNOLOGIES USED
 
  [bootstrap:](https://getbootstrap.com/) convenient grid system for laying out my webpage plus many other functionalities, such as a Collapsible  navbar and a accordion.
